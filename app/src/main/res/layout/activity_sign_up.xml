@@ -19,7 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_bold"
-            android:text="Login"
+            android:text="Sign-up"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="28dp"
@@ -28,7 +28,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginTop="230dp">
+            android:layout_marginTop="70dp">
 
         </TextView>
 
@@ -47,10 +47,43 @@
             android:paddingStart="20dp"
             android:layout_marginTop="20dp"
             ></EditText>
+
         <EditText
             android:layout_width="340dp"
             android:layout_height="50dp"
-            android:inputType="textPassword"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Rmail"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/notosans_semibold"
+            android:textColorHint="#515151"
+            android:textColor="#515151"
+            android:drawableStart="@drawable/email_vector"
+            android:drawablePadding="12dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="30dp"
+            ></EditText>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Phone"
+            android:background="@drawable/edit_text_bg"
+            android:fontFamily="@font/notosans_semibold"
+            android:textColorHint="#515151"
+            android:textColor="#515151"
+            android:drawableStart="@drawable/phone_vector"
+            android:drawablePadding="12dp"
+            android:paddingStart="20dp"
+            android:layout_marginTop="30dp"
+            ></EditText>
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:inputType="text"
             android:textSize="15dp"
             android:hint="Password"
             android:background="@drawable/edit_text_bg"
@@ -60,14 +93,14 @@
             android:drawableStart="@drawable/password_vector"
             android:drawablePadding="12dp"
             android:paddingStart="20dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             ></EditText>
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/btn_sign_up"
             android:layout_width="216dp"
             android:layout_height="43dp"
-            android:text="Login"
+            android:text="Sign-up"
             android:background="@drawable/button_bg"
             android:textSize="16dp"
             android:fontFamily="@font/poppins_semibold"
@@ -89,17 +122,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/notosans_semibold"
-                android:text="Didn't have account?"
+                android:text="Already have account?"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
                 android:textSize="15dp"
                 ></TextView>
             <TextView
-                android:id="@+id/tv_signup"
+                android:id="@+id/tv_login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/notosans_semibold"
-                android:text="Sign Up"
+                android:text="Login"
                 android:textAllCaps="false"
                 android:textColor="#0038FE"
                 android:textSize="15dp"

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".salonList"
+    android:background="@drawable/salon_list_bg">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="310dp"
+            android:alpha="0"></Button>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_black_main"
+            android:drawableEnd="@drawable/salon_a"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingStart="-160dp"
+            android:paddingEnd="20dp"
+            android:text="Salon A"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_black_main"
+            android:drawableEnd="@drawable/salon_b"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingStart="-160dp"
+            android:paddingEnd="20dp"
+            android:text="Salon B"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_black_main"
+            android:drawableEnd="@drawable/salon_c"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingStart="-160dp"
+            android:paddingEnd="20dp"
+            android:text="Salon C"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_black_main"
+            android:drawableEnd="@drawable/salon_d"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingStart="-160dp"
+            android:paddingEnd="20dp"
+            android:text="Salon D"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_black_main"
+            android:drawableEnd="@drawable/salon_e"
+            android:fontFamily="@font/nunito_bold"
+            android:paddingStart="-160dp"
+            android:paddingEnd="20dp"
+            android:text="Salon E"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"></androidx.appcompat.widget.AppCompatButton>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

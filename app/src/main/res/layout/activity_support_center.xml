@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SupportCenter"
+    android:background="@drawable/support_center_bg">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="310dp"
+            android:alpha="0"
+            ></Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:background="@drawable/my_resv_card"
+            android:layout_marginTop="32dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="20dp"
+                    android:text="Have Any Problem?"
+                    android:textColor="@color/white"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:textSize="16dp"
+                    android:text="Contact Us"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="45dp"
+                    ></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/support_vector"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                ></ImageView>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_black_main"
+            android:fontFamily="@font/nunito_bold"
+            android:text="0853-xxxx-xxxx"
+            android:drawableStart="@drawable/phone_vector"
+            android:paddingStart="20dp"
+            android:paddingEnd="90dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_black_main"
+            android:fontFamily="@font/nunito_bold"
+            android:text="syndicate@gmail.com"
+            android:drawableStart="@drawable/email_vector"
+            android:paddingStart="20dp"
+            android:paddingEnd="30dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

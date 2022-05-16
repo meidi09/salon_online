@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_halaman_utama"
+    tools:context=".Utama">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ad"
+            android:layout_marginTop="80dp"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="43dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="26dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:background="@drawable/btn_black_main"
+                    android:drawableStart="@drawable/make_reserv_vector"
+                    android:paddingStart="8dp"
+                    android:layout_gravity="center"
+                    ></androidx.appcompat.widget.AppCompatButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Make Reservation"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_bold"
+                    ></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="26dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:background="@drawable/btn_black_main"
+                    android:drawableStart="@drawable/my_reserv_vector"
+                    android:paddingStart="8dp"
+                    android:layout_gravity="center"
+                    ></androidx.appcompat.widget.AppCompatButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="My Reservation"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_bold"
+                    ></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="47dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="26dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:background="@drawable/btn_black_main"
+                    android:drawableStart="@drawable/salon_list_vector"
+                    android:paddingStart="8dp"
+                    android:layout_gravity="center"
+                    ></androidx.appcompat.widget.AppCompatButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salon List"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_bold"
+                    android:layout_gravity="center"
+                    ></TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="26dp"
+                >
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="106dp"
+                    android:layout_height="106dp"
+                    android:background="@drawable/btn_black_main"
+                    android:drawableStart="@drawable/support_center_vector"
+                    android:paddingStart="8dp"
+                    android:layout_gravity="center"
+                    ></androidx.appcompat.widget.AppCompatButton>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Support Center"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nunito_bold"
+                    android:layout_gravity="center"
+                    ></TextView>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttom_bar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></ImageView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

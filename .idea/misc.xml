@@ -4,10 +4,21 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/btn_black_main.xml" value="0.2675925925925926" />
         <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/button_bg.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/edit_text_bg.xml" value="0.2675925925925926" />
         <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2722222222222222" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/input_bg.xml" value="0.2675925925925926" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/drawable/my_resv_card.xml" value="0.262037037037037" />
         <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/font/poppins_semibold.xml" value="0.2675925925925926" />
-        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_login.xml" value="0.14375" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_location.xml" value="0.264" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_make_reservation.xml" value="0.2" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_my_reservation.xml" value="0.2" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_salon_list.xml" value="0.264" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_support_center.xml" value="0.2" />
+        <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/activity_utama.xml" value="0.2" />
         <entry key="..\:/Users/meidi/Documents/Android/SalonOnline/app/src/main/res/layout/start_screen.xml" value="0.264" />
       </map>
     </option>

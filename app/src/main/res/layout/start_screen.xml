@@ -8,7 +8,7 @@
     tools:context=".StartScreenActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btn_get_started"
         android:layout_width="216dp"
         android:layout_height="43dp"
         android:text="Get Started"
